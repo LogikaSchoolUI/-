@@ -1,0 +1,121 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #111;
+}
+
+.button {
+    background: crimson;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: darkred;
+}
+
+/* Меню */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #222;
+    padding: 10px 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: crimson;
+}
+
+/* Основний контент */
+main {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Обмеження ширини секцій */
+section {
+    max-width: 1100px;
+    margin: 0 auto 40px auto;
+}
+
+/* Блок "Про нас" */
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    text-align: left;
+}
+
+.about .text {
+    flex: 1 1 500px;
+}
+
+.about .image img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* Секція місії */
+.mission {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Картинка-роздільник */
+.divider {
+    width: 100%;
+    display: block;
+}
+
+/* Підвал */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    background: #111;
+}
+
+footer a img {
+    transition: transform 0.3s;
+}
+
+footer a img:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    font-size: 18px;
+}
